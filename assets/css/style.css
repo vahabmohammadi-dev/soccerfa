@@ -444,7 +444,6 @@ body {
   font-weight: 600;
   margin-top: 2px;
 }
-
 /* فوتر */
 .site-footer {
   background: var(--card);
@@ -458,11 +457,28 @@ body {
 }
 
 .footer-brand {
-  text-align: center;
+  display: block;
+}
+
+.footer-brand-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-brand .site-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-brand .site-logo img {
+  display: block;
 }
 
 .footer-brand strong {
   font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
 }
 
 .footer-brand p {
