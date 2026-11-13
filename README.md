@@ -55,8 +55,9 @@
 **روش دوم: اجرا با سرور محلی**  
 ابتدا دستور زیر را در ترمینال و در مسیر اصلی پروژه اجرا کنید:
 
-```bash
-npx serve .<h2 align="center">Screenshots</h2>
+
+npx serve .
+<h2 align="center">Screenshots</h2>
 
 <table>
   <tr>
