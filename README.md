@@ -57,19 +57,9 @@
 
 
 npx serve .
-<h2 align="center">Screenshots</h2>
+## Screenshots
 
-<table>
-  <tr>
-    <th>☀️ Light Mode</th>
-    <th>🌙 Dark Mode</th>
-  </tr>
-  <tr>
-    <td>
-      <img src="assets/img/screenshot/screenshot1.png" width="100%">
-    </td>
-    <td>
-      <img src="assets/img/screenshot/screenshot2.png" width="100%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/img/screenshot/screenshot1.png" width="48%" alt="Light Mode">
+  <img src="./assets/img/screenshot/screenshot2.png" width="48%" alt="Dark Mode">
+</p>
