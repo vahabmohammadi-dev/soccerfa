@@ -56,4 +56,19 @@
 ابتدا دستور زیر را در ترمینال و در مسیر اصلی پروژه اجرا کنید:
 
 ```bash
-npx serve .
+npx serve .<h2 align="center">Screenshots</h2>
+
+<table>
+  <tr>
+    <th>☀️ Light Mode</th>
+    <th>🌙 Dark Mode</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/img/screenshot/screenshot1.png" width="100%">
+    </td>
+    <td>
+      <img src="assets/img/screenshot/screenshot2.png" width="100%">
+    </td>
+  </tr>
+</table>
