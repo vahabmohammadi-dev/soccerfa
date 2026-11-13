@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>نتایج زنده مسابقات فوتبال ایران وجهان تایج زنده فوتبال |  سری آ ،لیگ برتر، لالیگا، بوندسلیگا|ساکرفا</title>
+  <meta name="description" content="مشاهده نتایج زنده فوتبال لیگ های معتبر جهان و لیگ برتر ایران |لیگ برتر انگلیس سری آ ایتالیا لالیگا اسپانیا لیگ یک فرانسه و بوندسلیگا آلمان لیگ قهرمانان اروپا">
+  <meta name="keywords" content="نتایج زنده, serei a bundesliga laliga premier league league1 , UCL">
+
+  <!-- FIX: Open Graph و canonical -->
+  <link rel="canonical" href="https://example.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="نتایج زنده فوتبال">
+  <meta property="og:description" content="نتایج زنده و جدول رده‌بندی لیگ‌های ایران و جهان">
+  <meta property="og:image" content="assets/img/logo-light.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container-xxl header-inner">
+
+      <!-- FIX: حذف </a> اضافه -->
+      <a href="/" class="site-logo">
+        <img src="assets/img/logo-light.png" class="logo-light" alt="SoccerFa">
+        <img src="assets/img/logo-dark.png" class="logo-dark" alt="" aria-hidden="true">
+      </a>
+      <span class="site-title">ساکرفا| نتایج زنده  مسابقات فوتبال</span>
+
+      <nav class="main-nav" aria-label="ناوبری اصلی">
+        <a href="#matches" class="nav-l active" data-view="matches" aria-current="page">نتایج مسابقات</a>
+        <a href="#standings" class="nav-l" data-view="table">جدول لیگ‌ها</a>
+      </nav>
+
+      <button id="theme" class="theme-btn" type="button" aria-label="تغییر تم">☾</button>
+
+    </div>
+  </header>
+
+  <div class="topbar" id="top">
+    <div class="container-xxl">
+
+      <div class="toolbar">
+        <div class="date-controls">
+          <button id="prev" type="button" aria-label="روز قبل">›</button>
+          <button id="dateLabel" type="button" aria-live="polite">امروز</button>
+          <button id="next" type="button" aria-label="روز بعد">‹</button>
+        </div>
+
+        <label class="live-filter">
+          <input type="checkbox" id="liveOnly">
+          <span>فقط مسابقات زنده</span>
+        </label>
+      </div>
+
+      <div class="chips" id="chips" role="group" aria-label="فیلتر لیگ"></div>
+
+    </div>
+  </div>
+
+  <main class="container-xxl page-content">
+
+    <!-- FIX: اعلام تعداد زنده‌ها به صفحه‌خوان -->
+    <div id="liveAnnouncer" class="visually-hidden" aria-live="polite"></div>
+
+    <section id="matches-section">
+      <div class="section-heading">
+        <div>
+          <h1>نتایج فوتبال</h1>
+          <p>آخرین نتایج و مسابقات فوتبال</p>
+        </div>
+      </div>
+
+      <div id="matches" aria-live="polite" aria-busy="true">
+        <div class="loading">در حال دریافت مسابقات...</div>
+      </div>
+
+      <!-- FIX: noscript -->
+      <noscript>
+        <div class="empty-state">
+          برای مشاهده نتایج، لطفاً جاوااسکریپت را در مرورگر خود فعال کنید.
+        </div>
+      </noscript>
+    </section>
+
+    <section id="standings" class="standings-section">
+      <div class="section-heading">
+        <div>
+          <h2>جدول رده‌بندی لیگ‌ها</h2>
+          <p>وضعیت تیم‌ها در رقابت‌های مختلف</p>
+        </div>
+      </div>
+
+      <div id="standingsContent" aria-live="polite">
+        <div class="empty-state">
+          برای مشاهده جدول، یک لیگ را انتخاب کنید.
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container-xxl footer-inner">
+
+      <div class="footer-brand">
+        <a href="/" class="site-logo">
+          <img src="assets/img/logo-light.png" class="logo-light" alt="SoccerFa">
+          <img src="assets/img/logo-dark.png" class="logo-dark" alt="" aria-hidden="true">
+        </a>
+        <strong>ساکرفا |نتایج زنده مسابقات فوتبال</strong>
+        <p>مرجع مشاهده نتایج و جدول مسابقات فوتبال</p>
+      </div>
+
+      <div class="footer-bottom">
+        <span id="updated"></span>
+        <span>© ۱۴۰۵ تمامی حقوق محفوظ است.</span>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>
